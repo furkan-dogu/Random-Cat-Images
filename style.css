@@ -1,10 +1,12 @@
 #cats-img {
     padding: .5rem;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 #cats-img:hover {
     scale: .98;
+    box-shadow: 0 0 5px;
 }
 
 @media screen and (max-width: 992px) {
