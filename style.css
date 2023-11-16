@@ -1,0 +1,16 @@
+#cats-img {
+    padding: .5rem;
+    border-radius: 20px;
+}
+
+#cats-img:hover {
+    scale: .98;
+}
+
+@media screen and (max-width: 992px) {
+    #loading img,
+    #error-img,
+    #loading-img {
+        width: 100%;
+    }
+}
